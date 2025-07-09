@@ -1,0 +1,91 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/qr_codes/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "/brochure",
+        "destination": "/brochure.html"
+      },
+      {
+        "source": "/enroll",
+        "destination": "/enroll.html"
+      },
+      {
+        "source": "/",
+        "destination": "/home.html"
+      },
+      {
+        "source": "/home",
+        "destination": "/home.html"
+      },
+      {
+        "source": "/news",
+        "destination": "/news.html"
+      },
+      {
+        "source": "/news/**",
+        "destination": "/news.html"
+      },
+      {
+        "source": "/application",
+        "destination": "/application.html"
+      },
+      {
+        "source": "/application-submitted",
+        "destination": "/application-submitted.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/login.html"
+      },
+      {
+        "source": "/portal/main{,/**}",
+        "destination": "/portal/main.html"
+      },
+      {
+        "source": "/portal/teacher{,/**}",
+        "destination": "/portal/teacher.html"
+      },
+      {
+        "source": "/portal/student{,/**}",
+        "destination": "/portal/student.html"
+      },
+      {
+        "source": "/portal/profile",
+        "destination": "/portal/profile.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "DOM Tech Academy",
+  "short_name": "DOM Tech",
+  "description": "Inspiring young minds ages 6-16 to discover the world of coding, robotics, and computational thinking. Start their tech journey today!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#305CDE",
+  "theme_color": "#305CDE",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+} 

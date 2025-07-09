@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "DOM Tech Academy",
+  "url": "https://domtechacademy.com",
+  "logo": "https://domtechacademy.com/images/logo-blue.jpeg",
+  "description": "Inspiring young minds ages 6-16 to discover the world of coding, robotics, and computational thinking.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "303 Wyman St",
+    "addressLocality": "Waltham",
+    "addressRegion": "Massachusetts",
+    "postalCode": "02451",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/domtechacademy/",
+    "https://www.linkedin.com/company/dom-tech-academy/",
+    "https://www.tiktok.com/@domtechacademy",
+    "https://www.facebook.com/share/1DjueE5PhA/"
+  ],
+  "offers": {
+    "@type": "AggregateOffer",
+    "availabilityStarts": "2025-05-05",
+    "category": "STEM Education",
+    "educationalLevel": "Beginner to Advanced",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Pre-Coding",
+        "description": "Logic-based programming introduction for ages 6-10",
+        "availability": "8 seats available",
+        "startDate": "2025-05-05"
+      },
+      {
+        "@type": "Offer",
+        "name": "Python with EV3",
+        "description": "Intermediate robotics programming for ages 11-16",
+        "availability": "6 seats available",
+        "startDate": "2025-05-12"
+      },
+      {
+        "@type": "Offer",
+        "name": "Mid-Robotics",
+        "description": "Advanced hardware programming for ages 11-16",
+        "availability": "4 seats available",
+        "startDate": "2025-05-12"
+      },
+      {
+        "@type": "Offer",
+        "name": "Arduino Coding",
+        "description": "Advanced IoT programming for ages 11-16",
+        "availability": "10 seats available",
+        "startDate": "2025-05-12"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "STEM Education Programs",
+    "itemListElement": [
+      {
+        "@type": "Course",
+        "name": "Pre-Coding",
+        "description": "Introduction to logic and computational thinking",
+        "educationalLevel": "Beginner",
+        "timeRequired": "PT8W",
+        "typicalAgeRange": "6-10"
+      },
+      {
+        "@type": "Course",
+        "name": "Python with EV3",
+        "description": "Learn Python programming with LEGO EV3 robotics",
+        "educationalLevel": "Intermediate",
+        "timeRequired": "PT12W",
+        "typicalAgeRange": "11-16"
+      },
+      {
+        "@type": "Course",
+        "name": "Mid-Robotics",
+        "description": "Advanced robotics and hardware programming",
+        "educationalLevel": "Advanced",
+        "timeRequired": "PT12W",
+        "typicalAgeRange": "11-16"
+      },
+      {
+        "@type": "Course",
+        "name": "Arduino Coding",
+        "description": "IoT and embedded systems programming",
+        "educationalLevel": "Advanced",
+        "timeRequired": "PT12W",
+        "typicalAgeRange": "11-16"
+      }
+    ]
+  }
+} 

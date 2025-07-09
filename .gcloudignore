@@ -1,0 +1,19 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore development files
+.DS_Store
+.env.local
+next-env.d.ts
+
+# Ignore build outputs
+out/
+.next/
+
+# Ignore dependencies
+node_modules/
+
+# Keep environment files
+!.env
+!.env.yaml 
